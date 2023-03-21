@@ -1,0 +1,64 @@
+body
+{
+    background-color: rgba(50,50,50,0.5);
+}
+h1
+{
+    font-size:3rem;
+    padding:10px 0;
+    color:white;
+    font-weight:bolder;
+    text-shadow:0 0 10px black; /*콤마 없이 띄워쓰기로 구별함*/
+}
+h3
+{
+    font-size:1.5rem;
+    padding:10px 0;
+}
+h1, #todotext
+{
+    text-align:center;
+}
+#todotext>#inputtext
+{
+    border:none;
+    border-bottom:white 2px solid;
+    background-color:transparent;
+    color:white;
+}
+#todotext>#inputtext:focus
+{
+    outline:none;
+}
+#todotext>#inputtext::placeholder
+{
+    color:white;
+    text-align:center;
+}
+#todotext>#todo
+{
+    border-radius:20px;
+    border:none;
+    padding:5px 10px;
+}
+#list
+{
+    margin:auto;
+    max-width:500px;
+}
+#list>li
+{
+    clear:both;
+    border-bottom:1px white solid;
+    padding:5px 0;
+}
+#list>li>button
+{
+    float:right;
+    border-radius:20px;
+    border:none;
+}
+#checked
+{
+    color:white;
+}
