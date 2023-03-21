@@ -62,7 +62,7 @@ h1, #todotext
 }
 #list>li>button
 {
-    float:right;
+    float:right; /*버튼 단독으로 오른쪽에 띄워놓음*/
     border-radius:20px;
     border:none;
     padding:3px 7px;
