@@ -15,6 +15,7 @@ h3
 {
     font-size:1.5rem;
     padding:10px 0;
+    margin-left:30px;
 }
 h1, #todotext
 {
@@ -51,7 +52,7 @@ h1, #todotext
 #list
 {
     margin:auto;
-    max-width:500px;
+    max-width:400px;
 }
 #list>li
 {
