@@ -28,28 +28,22 @@ h1, #todotext
     background-color:transparent;
     color:white;
 }
-#todotext>#inputtext:focus
+#todotext>#inputtext:focus /*커서를 가져다 댔을 시 스타일*/
 {
-    outline:none;
+    outline:none; /*검정색 테두리가 나오는데 이것을 off해서 효과 없앰*/
 }
-#todotext>#inputtext::placeholder
+#todotext>#inputtext::placeholder /*입력값이 없으면 나오는 양식에 대한 스타일*/
 {
     color:white;
     text-align:center;
 }
-#todotext>#todo
-{
-    border-radius:20px;
-    border:none;
-    padding:5px 10px;
-}
-#todotext>#todobutton
+#todotext>#todobutton /*버튼 스타일*/
 {
     border:none;
     border-radius:20px;
     padding:5px 10px;
 }
-#list
+#list /*출력될 리스트에 대한 스타일*/
 {
     margin:auto;
     max-width:400px;
@@ -67,7 +61,7 @@ h1, #todotext
     border:none;
     padding:3px 7px;
 }
-#checked
+#list>li>button:hover , #todotext>input[type="submit"]
 {
-    color:white;
+    cursor:pointer;
 }
