@@ -56,3 +56,4 @@ function changecolor(e){
 
 /*각각의 함수마다 innerHTML을 넣은 이유는 만약 빠지게 된다면 함수 안의 값은
 실행이 되지만 return 문이 없어서 변경된 값이 나오지 못하기 때문에 추가했다.*/
+
